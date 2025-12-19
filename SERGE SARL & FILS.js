@@ -70,10 +70,10 @@
 
 // ===================== WHATSAPP PRODUIT =====================
 function sendProductWhatsapp(action, name, price){
-    let phone = "22996540120"; // 🔴 ton numéro
+    let phone = "22996540120"; // 🔴 Numéro de Mr S
 
     let message =
-`Bonjour SERGE SARL & FILS 👋
+`Bonjour Ets DIEU DE VICTOIRE 👋
 
 Je souhaite ${action} l'article suivant :
 
@@ -104,7 +104,7 @@ function sendCartWhatsapp(){
     });
 
     let message =
-`Bonjour SERGE SARL & FILS 👋
+`Bonjour Ets DIEU DE VICTOIRE 👋
 
 Je souhaite commander les articles suivants :
 
@@ -119,3 +119,4 @@ Merci 😊`;
         "_blank"
     );
 }
+
