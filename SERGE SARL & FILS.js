@@ -70,7 +70,7 @@
 
 // ===================== WHATSAPP PRODUIT =====================
 function sendProductWhatsapp(action, name, price){
-    let phone = "22996540120"; // 🔴 Numéro de Mr S
+    let phone = "22948484868"; // 🔴 Numéro de Mr S
 
     let message =
 `Bonjour Ets DIEU DE VICTOIRE 👋
@@ -95,7 +95,7 @@ function sendCartWhatsapp(){
         return;
     }
 
-    let phone = "22996540120";
+    let phone = "22948484868";
     let list = "";
     let items = cartItems.querySelectorAll(".cart-item");
 
@@ -119,4 +119,5 @@ Merci 😊`;
         "_blank"
     );
 }
+
 
