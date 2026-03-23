@@ -1,7 +1,6 @@
-// tracking.js
-const site = "mon-premier-site"; 
+const site = window.location.hostname; // détecte automatiquement le nom de ton site
 
-fetch("https://ton-backend.onrender.com/track", {
+fetch("https://ton-backend.onrender.com/track", { // remplace par ton URL Render
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
